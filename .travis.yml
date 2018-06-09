@@ -20,7 +20,6 @@ env:
 
 install:
   - stack setup --no-terminal
-  - stack build --only-snapshot --no-terminal
 
 before_script:
   - git config --global user.name "$GH_NAME"
@@ -30,7 +29,7 @@ before_script:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
 script:
-  - stack init
+  - stack build --no-terminal
   - cd blog
   - stack ghc site.hs
   - ./site build
