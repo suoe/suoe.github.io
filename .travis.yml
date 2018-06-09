@@ -29,7 +29,6 @@ before_script:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
 script:
-  - stack build --no-terminal
   - cd blog
   - stack ghc site.hs
   - ./site build
