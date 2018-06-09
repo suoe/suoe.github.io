@@ -30,6 +30,8 @@ before_script:
 
 script:
   - cd blog
+  - stack init --no-terminal
+  - stack build --no-terminal
   - stack ghc site.hs
   - ./site build
 
