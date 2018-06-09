@@ -1,0 +1,3 @@
+[submodule "blog/_site"]
+	path = blog/_site
+	url = https://github.com/suoe/suoe.github.io
