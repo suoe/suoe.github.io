@@ -32,8 +32,7 @@ script:
   - cd blog
   - stack init --no-terminal
   - stack build --no-terminal
-  - stack ghc site.hs
-  - ./site build
+  - stack exec site build
 
 after_success:
   - cd _site
