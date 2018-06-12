@@ -6,3 +6,21 @@ hasCJKLanguage = true
 
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+
+[Params]
+  comments = true
+
+[Author]
+  name = "Sunao"
+  github = "suoe"
+  twitter = "suna0oo"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/post"
+  weight = 1
+
+[[menu.main]]
+  name = "Repository"
+  url = "https://github.com/suoe/suoe.github.io"
+  weight = 1
