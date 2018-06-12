@@ -1,5 +1,0 @@
-blog/_site
-blog/_cache
-blog/site*
-!blog/site.hs
-.stack-work

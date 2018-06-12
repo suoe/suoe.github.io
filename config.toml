@@ -1,0 +1,8 @@
+baseURL = "https://suoe.github.io"
+languageCode = "ja"
+title = "ΔRate"
+theme = "beautifulhugo"
+hasCJKLanguage = true
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
