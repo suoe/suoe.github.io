@@ -8,9 +8,9 @@
   <title>ブログを始める</title>
   <meta property="og:title" content="ブログを始める" />
   <meta name="twitter:title" content="ブログを始める" />
-  <meta name="description" content="Hello Hugo!! Hakyll を使ってブログを始めてみようという気分になった。 しかしstack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので諦めて">
-  <meta property="og:description" content="Hello Hugo!! Hakyll を使ってブログを始めてみようという気分になった。 しかしstack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので諦めて">
-  <meta name="twitter:description" content="Hello Hugo!! Hakyll を使ってブログを始めてみようという気分になった。 しかしstack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので諦めて">
+  <meta name="description" content="Hello Hugo!! Hakyll を使ってブログを始めてみようという気分になった。 しかし stack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので Hugo を使うことに">
+  <meta property="og:description" content="Hello Hugo!! Hakyll を使ってブログを始めてみようという気分になった。 しかし stack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので Hugo を使うことに">
+  <meta name="twitter:description" content="Hello Hugo!! Hakyll を使ってブログを始めてみようという気分になった。 しかし stack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので Hugo を使うことに">
   <meta name="author" content="Sunao"/>
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@suna0oo" />
@@ -109,6 +109,12 @@
             </li>
           
         
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
         
 
@@ -179,15 +185,42 @@
 
 <p><a href="https://jaspervdj.be/hakyll/">Hakyll</a> を使ってブログを始めてみようという気分になった。</p>
 
-<p>しかしstack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので諦めておとなしくHugo を使うことにした。</p>
+<p>しかし stack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので Hugo を使うことにした。</p>
 
-<p>Hugo はいいぞ</p>
+<h1 id="手順">手順</h1>
+
+<p>Arch Linux を使用</p>
+
+<h3 id="導入">導入</h3>
+
+<pre><code>sudo pacman -S hugo
+</code></pre>
+
+<p>でインストール</p>
+
+<h3 id="テーマ">テーマ</h3>
+
+<p><a href="https://themes.gohugo.io/">Hugo Themes</a> に色々あった。今回は
+<a href="https://themes.gohugo.io/beautifulhugo/">Beautiful Hugo</a> を選んだ。きれい。</p>
+
+<h3 id="設定">設定</h3>
+
+<p>beautifulhugo/examplesite にあったものを少し変えて使っている。</p>
+
+<h3 id="github-pages">GitHub Pages</h3>
+
+<p>source ブランチで記事を書いて、</p>
+
+<pre><code>hugo
+</code></pre>
+
+<p>とすると blog_root/public 以下にビルドされるのでそれを master にプッシュしている。</p>
 
 
         
           <div class="blog-tags">
             
-              <a href="https://suoe.github.io/tags/hello/">hello</a>&nbsp;
+              <a href="https://suoe.github.io/tags/website/">website</a>&nbsp;
             
           </div>
         
