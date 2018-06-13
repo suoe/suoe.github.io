@@ -17,10 +17,15 @@ pygmentsUseClasses = true
 
 [[menu.main]]
   name = "Blog"
-  url = "/post"
+  url = "post"
   weight = 1
 
 [[menu.main]]
   name = "Repository"
   url = "https://github.com/suoe/suoe.github.io"
+  weight = 1
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags"
   weight = 1
