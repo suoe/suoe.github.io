@@ -1,4 +1,4 @@
-baseURL = "https://suoe.github.io"
+baseURL = "https://suoe.github.io/"
 languageCode = "ja"
 title = "ΔRate"
 theme = "beautifulhugo"
