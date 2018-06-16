@@ -5,19 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>ΔRate</title>
-  <meta property="og:title" content="ΔRate" />
-  <meta name="twitter:title" content="ΔRate" />
+  <title>ABC100</title>
+  <meta property="og:title" content="ABC100" />
+  <meta name="twitter:title" content="ABC100" />
+  <meta name="description" content="A a &lt;= 8 &amp;&amp; b &lt;= 8 のときYay! B n * 100^d. ただし n = 100 のときは100で割れる回数が増えてしまうので101個目を出力する C いくら3倍しても2で割れ">
+  <meta property="og:description" content="A a &lt;= 8 &amp;&amp; b &lt;= 8 のときYay! B n * 100^d. ただし n = 100 のときは100で割れる回数が増えてしまうので101個目を出力する C いくら3倍しても2で割れ">
+  <meta name="twitter:description" content="A a &lt;= 8 &amp;&amp; b &lt;= 8 のときYay! B n * 100^d. ただし n = 100 のときは100で割れる回数が増えてしまうので101個目を出力する C いくら3倍しても2で割れ">
   <meta name="author" content="Sunao"/>
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@suna0oo" />
   <meta name="twitter:creator" content="@suna0oo" />
-  <meta property="og:url" content="https://suoe.github.io/" />
+  <meta property="og:url" content="https://suoe.github.io/post/abc100/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="ΔRate" />
 
   <meta name="generator" content="Hugo 0.40.3" />
-  <link rel="canonical" href="https://suoe.github.io/" />
+  <link rel="canonical" href="https://suoe.github.io/post/abc100/" />
   <link rel="alternate" href="https://suoe.github.io/index.xml" type="application/rss+xml" title="ΔRate">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -148,9 +151,20 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>ΔRate</h1>
+            <div class="post-heading">
+              <h1>ABC100</h1>
                 
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 16, 2018
+  
+  
+  
+</span>
+
+
                 
             </div>
           </div>
@@ -161,88 +175,66 @@
 
 
     
-  <div role="main" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
         
 
-        <div class="posts-list">
-          
-          
-            <article class="post-preview">
-              <a href="https://suoe.github.io/post/abc100/">
-                <h2 class="post-title">ABC100</h2>
-                
-                
-              </a>
+<h1 id="a">A</h1>
 
-              <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 16, 2018
-  
-  
-  
-</span>
+<p>a &lt;= 8 &amp;&amp; b &lt;= 8
+のときYay!</p>
 
+<h1 id="b">B</h1>
 
-              <div class="post-entry">
-                
-                  A a &lt;= 8 &amp;&amp; b &lt;= 8 のときYay! B n * 100^d. ただし n = 100 のときは100で割れる回数が増えてしまうので101個目を出力する C いくら3倍しても2で割れ
-                  <a href="https://suoe.github.io/post/abc100/" class="post-read-more">[Read More]</a>
-                
-              </div>
+<p>n * 100^d.
+ただし n = 100 のときは100で割れる回数が増えてしまうので101個目を出力する</p>
 
-              
-                <div class="blog-tags">
-                  
-                    <a href="https://suoe.github.io/tags/atcoder/">AtCoder</a>&nbsp;
-                  
-                    <a href="https://suoe.github.io/tags/competitive-programming/">Competitive Programming</a>&nbsp;
-                  
-                </div>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://suoe.github.io/post/first-post/">
-                <h2 class="post-title">ブログを始める</h2>
-                
-                
-              </a>
+<h1 id="c">C</h1>
 
-              <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 12, 2018
-  
-  
-  
-</span>
+<p>いくら3倍しても2で割れる回数は変わらないため,一回の操作でa[i] のうち1つを2で割るようにすると操作できる回数は最大になる.
+よって各 a[i] について2で割れる回数を求めて全部足せばよい.</p>
 
+<h1 id="d">D</h1>
 
-              <div class="post-entry">
-                
-                  Hello Hugo!! Hakyll を使ってブログを始めてみようという気分になった。 しかし stack さんの挙動が全然わからない上にあまり良さげなテーマがなかったので Hugo を使うことに
-                  <a href="https://suoe.github.io/post/first-post/" class="post-read-more">[Read More]</a>
-                
-              </div>
+<p>各ケーキに対して, ± x[i] ± y[i] ± z[i] の8通りの値を求める.
+8通りそれぞれで大きい方から m 個の和を求めてその最大値が答え.</p>
 
-              
-                <div class="blog-tags">
-                  
-                    <a href="https://suoe.github.io/tags/website/">website</a>&nbsp;
-                  
-                </div>
-              
-            </article>
-          
-        </div>
 
         
-      </div>
+          <div class="blog-tags">
+            
+              <a href="https://suoe.github.io/tags/atcoder/">AtCoder</a>&nbsp;
+            
+              <a href="https://suoe.github.io/tags/competitive-programming/">Competitive Programming</a>&nbsp;
+            
+          </div>
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://suoe.github.io/post/first-post/" data-toggle="tooltip" data-placement="top" title="ブログを始める">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>ABC100</title>
+      <link>https://suoe.github.io/post/abc100/</link>
+      <pubDate>Sat, 16 Jun 2018 22:01:07 +0900</pubDate>
+      
+      <guid>https://suoe.github.io/post/abc100/</guid>
+      <description>A a &amp;lt;= 8 &amp;amp;&amp;amp; b &amp;lt;= 8 のときYay! B n * 100^d. ただし n = 100 のときは100で割れる回数が増えてしまうので101個目を出力する C いくら3倍しても2で割れ</description>
+    </item>
+    
+    <item>
       <title>ブログを始める</title>
       <link>https://suoe.github.io/post/first-post/</link>
       <pubDate>Tue, 12 Jun 2018 19:00:26 +0900</pubDate>
