@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>ARC099</title>
+      <link>https://suoe.github.io/post/arc099/</link>
+      <pubDate>Sun, 24 Jun 2018 00:08:29 +0900</pubDate>
+      
+      <guid>https://suoe.github.io/post/arc099/</guid>
+      <description>C 最終的に, 1だけの数列になるはずである. 操作順をうまく選べば一回の操作で, 1を K-1個づつ増やすことができる. D ***999999 という形になれば良いこと</description>
+    </item>
+    
+    <item>
       <title>ABC100</title>
       <link>https://suoe.github.io/post/abc100/</link>
       <pubDate>Sat, 16 Jun 2018 22:01:07 +0900</pubDate>
